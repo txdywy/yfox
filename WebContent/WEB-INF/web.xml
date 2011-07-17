@@ -7,7 +7,15 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>WelcomeServlet</servlet-name>
-		<url-pattern>/renrenapp/welcome</url-pattern>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>HomeServlet</servlet-name>
+		<servlet-class>com.yfox.webcanvas.HomeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeServlet</servlet-name>
+		<url-pattern>/home</url-pattern>
 	</servlet-mapping>
 	
 	<welcome-file-list>
